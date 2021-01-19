@@ -8,7 +8,7 @@ vector<int> sort1(int threads, int buckets) {
     vector<int> result_table;
     vector<int> indexes(buckets, 0);
 
-    double buckets_interval = 100 / buckets;
+    double buckets_interval = 10000 / buckets;
     double splitting_start, splitting_end;
     double sorting_start, sorting_end;
     double concatenating_buckets_start, concatenating_buckets_end;
