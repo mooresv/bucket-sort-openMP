@@ -28,7 +28,7 @@ vector<int> getUnsortedVector() {
     vector<int> v;
 
     for (int i = 0; i < ELEMENTS_AMOUNT; i++) {
-        v.push_back(rand() % (100 + 1));
+        v.push_back(rand() % (10000 + 1));
     }
 
     return v;
