@@ -8,7 +8,7 @@ vector<int> sort2(int threads, int buckets) {
     vector<int> v = getUnsortedVector();
     vector<int> result;
 
-    double bucket_interval = 100 / buckets;
+    double bucket_interval = 10000 / buckets;
     double splitting_start, splitting_end;
     double sorting_start, sorting_end;
     double concating_buckets_start, concating_buckets_end;
